@@ -1,6 +1,6 @@
 {
     // 
-    const countWordOccurrences = (sentence:string, word:string )=>{
+    const countWordOccurrences = (sentence:string, word:string ):number=>{
         const lowerCaseSentence = sentence.toLowerCase();
         const lowerCaseWord = word.toLowerCase();
 
